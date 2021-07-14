@@ -14,7 +14,7 @@ namespace db2Tester
     public TestContext(DbContextOptions<TestContext> options) : base(options)
     {
     }
-    private const string connectionString = "server=localhost:50000;uid=db2inst1;pwd=testdbpassword;database=testdb";
+    private const string connectionString = "server=192.168.178.248:50000;uid=db2inst1;pwd=h4hfirelyfacade;database=testdb";
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
